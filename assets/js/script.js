@@ -1,8 +1,8 @@
-let email = 'joão@hcode.com.br';
+let email = 'cleyton_cerdate@hcode.com.br';
 
 
 console.log(email);
-console.log('o seu e-email: joao@hcode.com.br' + email);
+console.log('o seu e-email: cleyton_cerdate@gmail.com' + email);
 console.log(`O seu e-email é: ${email}`);
 
 document.getElementById('btn-submit').addEventListener('click', e => {
@@ -37,14 +37,14 @@ document.querySelector('#form-login').addEventListener('submit', e => {
      };
          
         if (!json.email) {
-            console.error("O campo e-mail deve ser preenchido");
+            alert("O campo e-mail deve ser preenchido"); /*console.error*/
 
         } else if (!json.password) { 
             
-            console.error("o campo senha deve ser preenchido");
+            alert("o campo senha deve ser preenchido");
         }
         else { 
-            console.info("Dados validados com sucesso");
+            alert("Dados validados com sucesso"); /*console.info*/
         }
 
     });

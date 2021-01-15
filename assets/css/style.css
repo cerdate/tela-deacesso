@@ -52,16 +52,16 @@ body {
 }
 
 .content-center button {
-    background-color: #D07335;
+    background-color: #000;
     color: #fff;
 }
 
 .content-center button:hover {
-    background-color: #b55b28;
+    background-color: rgb(46, 42, 42);
     cursor:pointer;
 }
 .content-center button:hover {
-    background-color: #c14e0e;
+    background-color: rgb(223, 6, 6);
 }
 
 header a { 
